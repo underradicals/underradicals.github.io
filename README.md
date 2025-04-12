@@ -1,2 +1,2 @@
 # underradicals.github.io
-My Personal Website: Thank you GitHub. 
+This is me testing some shit! 
