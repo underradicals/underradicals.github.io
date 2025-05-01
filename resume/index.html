@@ -1,11 +1,161 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="light">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Resume</title>
+  <script type="module" crossorigin src="/assets/main-CCIVTV-a.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BeGOsTmu.css">
 </head>
+
 <body>
-  <h1>Resume Home Page</h1>
+  <div class="theme-switcher" data-name="theme-switcher">
+    <p class="theme-switcher-title">Theme Switcher</p>
+    <div class="theme-switcher-state">
+      <p>
+        <span class="lighten" data-theme-state="dark">
+          Dark
+        </span>&ThickSpace;&verbar;&ThickSpace;
+        <span data-theme-state="light">
+          Light
+        </span>
+      </p>
+    </div>
+    <div class="switch">
+      <span class="switch-button"></span>
+    </div>
+  </div>
+  <div id="app">
+    <h2 class="person-name">Joseph Burton</h2>
+    <section class="info-bar section">
+      <a class="info-item" href="mailto:underradicals@gmail.com">underradicals@gmail.com</a>
+      <a class="info-item" href="tel:+1 903 519 9440">+1 903-519-9940</a>
+      <p class="info-bar--inner">
+        <a class="info-item" href="https://github.com/underradicals"
+          target="_blank">GitHub</a>&ThickSpace;&verbar;&ThickSpace;
+        <a class="info-item" href="https://www.linkedin.com/in/underradicals/" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+    <section class="summary section">
+      <h3>Professional Summary</h3>
+      <p>
+        Results driven detail-oriented Software Engineer with over five years of experience designing and implementing
+        RESTful clients, scalable data pipelines, and intuitive data-driven user interfaces. Adept at transforming
+        complex requirements into robust, maintainable code using modern web technologies and backend systems.
+        Demonstrates strong problem-solving skills, a collaborative mindset, and a passion for building
+        high-performance, user-centric applications. Proven ability to work across the full software development
+        lifecycle in agile, cross-functional teams.
+      </p>
+    </section>
+    <section class="skills desktop section">
+      <h3>Skills</h3>
+      <div class="bordered-table">
+        <div class="bordered-table--header">
+          <p class="bordered-table-item">Programming Languages</p>
+          <p class="bordered-table-item">Technologies</p>
+          <p class="bordered-table-item">Databases</p>
+        </div>
+        <div class="bordered-table--body">
+          <p class="bordered-table-item">
+            <span>C#&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>Python&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>SQL&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>Javascript</span>
+          </p>
+          <p class="bordered-table-item">
+            <span>.NET Core&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>Spark&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>React</span>
+          </p>
+          <p class="bordered-table-item">
+            <span>PostgreSQL&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>MySQL&ThickSpace;&verbar;&ThickSpace;</span>
+            <span>Mongo DB</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills mobile section">
+      <h3>Skills</h3>
+      <div class="bordered-table-item-container">
+        <p class="bordered-table-item">Programming Languages</p>
+        <p class="bordered-table-item">
+          <span>C#&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>Python&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>SQL&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>Javascript</span>
+        </p>
+      </div>
+      <div class="bordered-table-item-container">
+        <p class="bordered-table-item">Technologies</p>
+        <p class="bordered-table-item">
+          <span>.NET Core&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>Spark&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>React</span>
+        </p>
+      </div>
+      <div class="bordered-table-item-container">
+        <p class="bordered-table-item">Databases</p>
+        <p class="bordered-table-item">
+          <span>PostgreSQL&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>MySQL&ThickSpace;&verbar;&ThickSpace;</span>
+          <span>Mongo DB</span>
+        </p>
+      </div>
+    </section>
+    <section class="section professional-exp">
+      <h3>Professional Experience</h3>
+      <div class="work-history-container">
+        <div class="work-history-item">
+          <h4>Software Engineer</h4>
+          <ul class="work-history-item-list">
+            <li>Designed and Implemented RESTful APIs using .NET Core & PostgreSQL</li>
+            <li>Implemented Data-Orchestration & Observability.</li>
+            <li>Designed and Implemented FE UI & UX.</li>
+          </ul>
+        </div>
+        <div class="work-history-item">
+          <h4>Database Developer</h4>
+          <ul class="work-history-item-list">
+            <li>Designed, optimized schemas and queries that can undergo high volume transactional system.</li>
+            <li>Design and develop ELT routines with Python. </li>
+            <li>Can perform normalization, query planning, view composition. </li>
+          </ul>
+        </div>
+        <div class="work-history-item">
+          <h4>RESTful API's</h4>
+          <ul class="work-history-item-list">
+            <li>Developed data ingestion pipeline that processed structured and semi-structured data from APIs and
+              third-party data providers.</li>
+            <li>Implemented data validation, anomaly detection, and transformation logic. </li>
+          </ul>
+        </div>
+        <div class="work-history-item"></div>
+      </div>
+    </section>
+    <section class="section education">
+      <h3>Education</h3>
+      <div class="edu-items">
+        <ul class="work-history-item-list">
+          <li>Grantham University</li>
+          <li>BA (Computer Science)</li>
+          <li>Honors: Cum Laude</li>
+        </ul>
+        <ul class="work-history-item-list">
+          <li>Grantham University</li>
+          <li>MA (Information Technology)</li>
+          <li>Honors: Magna Cum Laude</li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
