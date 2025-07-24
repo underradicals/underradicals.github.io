@@ -1,1 +1,0 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";import{O as n}from"./index-C88gUuVH.js";n(".offcanvas-menu",".menu-container",".offcanvas-menu > .close-button",".overlay","left");n(".settings-menu",".settings-container",".settings-menu > .close-button",".overlay","right");
