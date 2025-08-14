@@ -1,0 +1,1 @@
+import{_ as s,c as t,o as a,ae as r}from"./framework.js";const m=JSON.parse('{"title":"Internals","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"cs/index.md","filePath":"cs/index.md"}'),i={name:"cs/index.md"};function o(n,e,l,c,d,h){return a(),t("div",null,e[0]||(e[0]=[r("",4)]))}const u=s(i,[["render",o]]);export{m as __pageData,u as default};
